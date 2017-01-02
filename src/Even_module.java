@@ -17,6 +17,9 @@ public class Even_module {
 			if(a[j]%2==0){//this logic makes those number will be printed which having remender in 0
 				System.out.println("number"+a[j]);// this is going to print the remender
 			}
+			if(a[j]%2 != 0){
+				System.out.println("odd number"+a[j]);
+			}
 		}
 	}
 
