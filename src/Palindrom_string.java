@@ -18,5 +18,5 @@ public class Palindrom_string {
 			System.out.println(reve);
 		}		
 	}
-}
+}     
 
