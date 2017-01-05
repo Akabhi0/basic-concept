@@ -106,6 +106,20 @@ public class Fundament_codes {
 		System.out.println("strong no cube is "+temp);
 
 	}
+    //int a,b,c,temp,i,j;
+	
+	public void Fibonaccis(){
+	 	a=0;b=1;
+	 	System.out.println("enter the no of loop");
+	 	j=sc.nextInt();
+	 	
+	 	for(i=0;i<=j;i++){
+	 			temp = a+b;
+	 		    a = b;
+	 		    b = temp;    
+	 	}
+	 	System.out.println("fibonaccis "+temp);
+	}
 	
 	public static void main(String[] args) {
 
@@ -114,8 +128,9 @@ public class Fundament_codes {
 		//f.two_prime();
 		//f.str_rev("abhi");
 		//f.num_rev();
-		f.strong();
+		//f.strong();
 		//f.strong_bold();
+		f.Fibonaccis();
 	}
 
 }
